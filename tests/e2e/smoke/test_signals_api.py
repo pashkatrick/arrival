@@ -3,7 +3,7 @@ import pytest
 
 
 @allure.feature('Signals')
-@allure.suite('Example')
+@allure.suite('Smoke Example')
 class TestSignalsGetMethods:
 
     @pytest.fixture(autouse=True)

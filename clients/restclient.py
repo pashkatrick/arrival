@@ -12,7 +12,7 @@ class RestClient:
     def post(self, path: str, data: dict) -> req.Response:
         self.body['url'] = self.host + path
         self.body['data'] = data
-        resp = req.get(**self.body)
+        resp = req.post(**self.body)
         return resp
 
     def get(self, path: str) -> req.Response:

@@ -11,6 +11,9 @@ option_list = (
     'port'
 )
 
+pytest_plugins = [
+    'framework.fixtures'
+]
 
 def pytest_addoption(parser):
     parser.addoption('--env', action='store', default=None)
