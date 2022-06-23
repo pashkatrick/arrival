@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 .todo
 .DS_Store
+.vscode/
