@@ -4,7 +4,7 @@ from hamcrest import *
 
 
 @allure.feature('Pins')
-@allure.suite('Get Requests')
+@allure.suite('Smoke Get')
 class TestPinsGetMethods:
 
     @pytest.fixture(autouse=True)
@@ -27,7 +27,7 @@ class TestPinsGetMethods:
 
 
 @allure.feature('Pins')
-@allure.suite('Post Requests')
+@allure.suite('Smoke Post')
 class TestPinsPostMethods:
 
     @pytest.fixture(autouse=True)
